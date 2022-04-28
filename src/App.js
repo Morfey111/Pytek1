@@ -1,13 +1,12 @@
 import './App.css';
-import DataFetching from './DataFetching';
-import TryDataFetch from './TryDataFetch';
+// import DataFetching from './DataFetching';
+import DataFetchPytek from './DataFetchPytek';
 
 function App() {
   return (
     <div className="App">
-      <DataFetching />
-      <TryDataFetch />
-      
+      {/* <DataFetching /> */}
+      <DataFetchPytek />
     </div>
   );
 }
